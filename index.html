@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0f172a">
+  <meta name="description" content="AprovACS — preparação para Agente Comunitário de Saúde de Vitória do Jari/AP.">
+  <link rel="manifest" href="./public/manifest.json?v=3">
+  <link rel="stylesheet" href="./src/assets/style.css?v=3">
+  <title>AprovACS | Estudos ACS</title>
+  <style>
+    /* Fallback visual: keeps the app readable even if the stylesheet URL is cached or fails. */
+    html,body{margin:0;min-height:100%;background:#0f172a;color:#f1f5f9;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    *{box-sizing:border-box}
+    .app-shell{max-width:900px;min-height:100vh;margin:auto;padding-bottom:96px}
+    .topbar{height:78px;padding:14px 22px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #2b3b54;background:#0f172a;position:sticky;top:0;z-index:5}
+    .brand{display:flex;align-items:center;gap:12px}.brand-mark{width:43px;height:43px;border-radius:14px;background:linear-gradient(135deg,#2563eb,#10b981);display:grid;place-items:center;font-weight:800;font-size:20px}
+    .brand h1{font-size:18px;margin:0}.brand p{font-size:11px;color:#94a3b8;margin:4px 0 0}
+    .main-content{padding:22px 20px 30px}.tab-panel{display:none}.tab-panel.active{display:block}
+    .hero-card{min-height:190px;border-radius:24px;padding:25px;background:linear-gradient(125deg,#1d4ed8,#173b69 70%,#123e49);display:flex;align-items:center;justify-content:space-between;overflow:hidden}
+    .hero-card h2{font-size:32px;line-height:1.12;margin:0}.hero-card p{font-size:13px;color:#dbeafe}.eyebrow{font-size:10px;letter-spacing:1.4px;font-weight:800;color:#60a5fa;margin:0 0 10px}
+    .text-accent{color:#6ee7b7}.hero-symbol{font-size:100px;color:#ffffff20}
+    .countdown-card,.stat-card,.subject-card,.panel-card,.lesson-reader,.performance-hero{background:#172338;border:1px solid #2b3b54;border-radius:18px;padding:18px;margin-top:14px}
+    .countdown-card{display:flex;justify-content:space-between;align-items:center;gap:12px}.countdown{display:flex;gap:7px}.countdown div{background:#1e2c43;border-radius:10px;padding:8px;text-align:center;min-width:40px}.countdown strong,.countdown span{display:block}.countdown strong{font-size:20px}.countdown span,.small-muted,.stat-card small{font-size:10px;color:#94a3b8}
+    .section-heading{display:flex;align-items:center;justify-content:space-between;margin:27px 0 13px}.section-heading h2,.page-heading h2{font-size:23px;margin:0}.stats-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.stat-card{margin:0;padding:15px}.stat-card p{font-size:11px;color:#94a3b8}.stat-card strong{font-size:25px}.continue-card{width:100%;display:flex;align-items:center;gap:12px;padding:14px;background:#172338;border:1px solid #2b3b54;border-radius:15px;text-align:left;color:inherit;margin-bottom:9px}.continue-card span:nth-child(2){display:grid;gap:4px;flex:1}.continue-card strong{font-size:12px}.continue-card small{font-size:10px;color:#94a3b8}
+    .page-heading{margin:7px 0 22px}.page-heading>p:last-child{font-size:12px;color:#94a3b8}.subject-list{display:grid;gap:12px}.subject-card h3{font-size:14px}.subject-card p{font-size:11px;color:#94a3b8}.progress-track{height:6px;background:#334155;border-radius:20px;overflow:hidden}.progress-track span{display:block;height:100%;background:#10b981}.lesson-list,.option-list{display:grid;gap:8px;margin-top:12px}.lesson-row,.option-btn{width:100%;display:flex;gap:10px;align-items:center;text-align:left;padding:12px;border:1px solid #2b3b54;border-radius:12px;background:#0f172a;color:#f1f5f9}.lesson-meta{flex:1}.lesson-row strong,.lesson-row small{display:block}.lesson-row strong{font-size:12px}.lesson-row small{font-size:10px;color:#94a3b8;margin-top:4px}
+    .primary-btn,.secondary-btn,.danger-btn{border:0;border-radius:13px;padding:13px 16px;font-size:12px;font-weight:800}.primary-btn{background:#2563eb;color:white}.secondary-btn{background:#1e2c43;border:1px solid #2b3b54;color:#f1f5f9}.danger-btn{width:100%;margin-top:18px;background:#ef444422;color:#fca5a5}.field{width:100%;padding:13px;border:1px solid #2b3b54;border-radius:12px;background:#0f172a;color:#f1f5f9}.panel-card label{display:block;font-size:12px;margin:14px 0 8px}.panel-card .primary-btn{width:100%;margin-top:18px}
+    .quiz-area{background:#172338;border:1px solid #2b3b54;border-radius:18px;padding:18px}.quiz-area h3{font-size:17px;line-height:1.5}.quiz-top,.flashcard-progress{display:flex;justify-content:space-between;font-size:11px;color:#94a3b8}.option-btn{font-size:12px;line-height:1.5}.flashcard{width:100%;min-height:280px;border:1px solid #3b5271;border-radius:24px;padding:28px;background:linear-gradient(145deg,#1e2c43,#152136);color:#f1f5f9;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:22px;text-align:center}.flashcard strong{font-size:21px;line-height:1.5}.flashcard-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}.text-btn{background:none;border:0;color:#93c5fd;padding:13px}.performance-hero>strong{font-size:44px}.bottom-nav{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:900px;display:grid;grid-template-columns:repeat(5,1fr);padding:9px 8px;background:#0f172af5;border-top:1px solid #2b3b54;z-index:10}.nav-item{border:0;background:none;color:#64748b;display:flex;flex-direction:column;align-items:center;gap:4px;padding:5px}.nav-item span{font-size:21px}.nav-item small{font-size:9px}.nav-item.active{color:#60a5fa}.hidden{display:none!important}.toast{position:fixed;bottom:100px;left:50%;transform:translateX(-50%);padding:11px 16px;background:#e2e8f0;color:#0f172a;border-radius:12px;opacity:0;z-index:20}.toast.show{opacity:1}
+    @media(max-width:520px){.main-content{padding:16px 13px 25px}.hero-card{padding:20px;min-height:170px}.hero-card h2{font-size:27px}.hero-symbol{font-size:78px}.countdown-card{padding:13px}.countdown{gap:4px}.countdown div{min-width:34px;padding:7px 3px}.countdown strong{font-size:16px}.stats-grid{gap:7px}.stat-card{padding:11px 8px}.stat-card p{font-size:9px}.stat-card strong{font-size:21px}.subject-list{grid-template-columns:1fr}.flashcard{min-height:260px}}
+    @media(min-width:650px){.main-content{padding:30px}.subject-list{grid-template-columns:1fr 1fr}.hero-card{min-height:230px;padding:34px}.hero-card h2{font-size:40px}}
+  </style>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { slateapp: '#0f172a', primary: '#2563eb', accent: '#10b981' } } } };
+  </script>
+</head>
+<body class="min-h-screen bg-slateapp text-slate-100">
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand"><div class="brand-mark">A+</div><div><h1>AprovACS</h1><p>Preparação inteligente · ACS</p></div></div>
+      <button id="theme-toggle" class="icon-btn" aria-label="Alternar tema" title="Alternar tema">☼</button>
+    </header>
+    <main id="app-main" class="main-content">
+      <section id="tab-dashboard" class="tab-panel active">
+        <div class="hero-card">
+          <div class="hero-copy"><span class="eyebrow">SUA JORNADA COMEÇA AQUI</span><h2>Estude hoje.<br><span class="text-accent">Aprove amanhã.</span></h2><p>Um passo de cada vez até a aprovação.</p></div>
+          <div class="hero-symbol" aria-hidden="true">✚</div>
+        </div>
+        <div class="countdown-card">
+          <div><p class="muted-label">CONTAGEM REGRESSIVA</p><h2>Dia da prova</h2><p class="small-muted">24 de janeiro de 2027</p></div>
+          <div class="countdown" id="countdown"><div><strong id="days">—</strong><span>dias</span></div><div><strong id="hours">—</strong><span>horas</span></div><div><strong id="minutes">—</strong><span>min</span></div></div>
+        </div>
+        <div class="section-heading"><div><p class="eyebrow">VISÃO GERAL</p><h2>Seu progresso</h2></div><span class="status-pill" id="streak-label">Vamos começar</span></div>
+        <div class="stats-grid">
+          <article class="stat-card"><span class="stat-icon blue">▤</span><p>Aulas concluídas</p><strong id="lessons-done">0</strong><small id="lessons-total">de 0 aulas</small></article>
+          <article class="stat-card"><span class="stat-icon green">✓</span><p>Taxa de acerto</p><strong id="accuracy">0%</strong><small>nas questões respondidas</small></article>
+          <article class="stat-card"><span class="stat-icon violet">◷</span><p>Flashcards vistos</p><strong id="cards-seen">0</strong><small>cartões revisados</small></article>
+        </div>
+        <div class="section-heading"><div><p class="eyebrow">CONTINUE DE ONDE PAROU</p><h2>Próximo passo</h2></div></div>
+        <button class="continue-card" data-go="trilhas"><span class="continue-icon">→</span><span><strong>Explorar trilhas de estudo</strong><small>Teoria organizada por assunto</small></span><span class="arrow">›</span></button>
+        <button class="continue-card" data-go="simulados"><span class="continue-icon green-bg">✓</span><span><strong>Testar seus conhecimentos</strong><small>Questões comentadas e pontuação</small></span><span class="arrow">›</span></button>
+        <p class="disclaimer">Conteúdo de apoio para estudo. Confira sempre o edital e a legislação vigente; o banco inicial não substitui o material oficial.</p>
+      </section>
+
+      <section id="tab-trilhas" class="tab-panel">
+        <div class="page-heading"><p class="eyebrow">APRENDA NO SEU RITMO</p><h2>Trilhas de estudo</h2><p>Leia o conteúdo e marque cada aula como concluída.</p></div>
+        <div id="lesson-subjects" class="subject-list"></div>
+        <div id="lesson-reader" class="lesson-reader hidden"></div>
+      </section>
+
+      <section id="tab-simulados" class="tab-panel">
+        <div class="page-heading"><p class="eyebrow">PRATIQUE E EVOLUA</p><h2>Simulados</h2><p>Responda, confira o comentário e acompanhe seu desempenho.</p></div>
+        <div id="quiz-setup" class="panel-card">
+          <label for="quiz-count">Quantidade de questões</label>
+          <select id="quiz-count" class="field"><option value="5">5 questões</option><option value="10">10 questões</option><option value="20">20 questões</option><option value="all">Todas as questões</option></select>
+          <label for="quiz-subject">Área de conhecimento</label>
+          <select id="quiz-subject" class="field"><option value="all">Todas as áreas</option><option value="portugues">Língua Portuguesa</option><option value="especificos">Conhecimentos Específicos</option></select>
+          <button id="start-quiz" class="primary-btn">Começar simulado <span>→</span></button>
+        </div>
+        <div id="quiz-area" class="quiz-area hidden"></div>
+      </section>
+
+      <section id="tab-flashcards" class="tab-panel">
+        <div class="page-heading"><p class="eyebrow">MEMÓRIA ATIVA</p><h2>Flashcards</h2><p>Tente responder antes de virar o cartão. Sua avaliação organiza as revisões.</p></div>
+        <div class="flashcard-progress"><span id="flashcard-position">Cartão 0 de 0</span><span id="flashcard-due">Revisão inteligente</span></div>
+        <button id="flashcard" class="flashcard" aria-label="Virar flashcard"><span class="flashcard-label" id="flashcard-label">PERGUNTA</span><strong id="flashcard-text">Carregando cartões…</strong><span class="flip-hint">Toque para virar ↻</span></button>
+        <div class="flashcard-actions"><button id="card-hard" class="secondary-btn">Difícil</button><button id="card-easy" class="primary-btn">Fácil ✓</button></div>
+        <button id="card-next" class="text-btn">Pular cartão →</button>
+      </section>
+
+      <section id="tab-desempenho" class="tab-panel">
+        <div class="page-heading"><p class="eyebrow">DADOS QUE MOTIVAM</p><h2>Meu desempenho</h2><p>Use seus resultados para decidir o que revisar.</p></div>
+        <div class="performance-hero"><p>Taxa geral de acerto</p><strong id="performance-accuracy">0%</strong><div class="progress-track"><span id="accuracy-bar"></span></div><small id="answer-summary">Nenhuma questão respondida ainda.</small></div>
+        <div class="stats-grid two"><article class="stat-card"><p>Questões respondidas</p><strong id="questions-answered">0</strong></article><article class="stat-card"><p>Respostas corretas</p><strong id="correct-answers">0</strong></article></div>
+        <div class="panel-card"><h3>Por área</h3><div id="subject-performance" class="subject-performance"></div></div>
+        <button id="reset-progress" class="danger-btn">Apagar meu progresso</button>
+      </section>
+    </main>
+    <nav class="bottom-nav" aria-label="Navegação principal">
+      <button class="nav-item active" data-tab="dashboard"><span>⌂</span><small>Início</small></button>
+      <button class="nav-item" data-tab="trilhas"><span>▤</span><small>Trilhas</small></button>
+      <button class="nav-item" data-tab="simulados"><span>✓</span><small>Simulados</small></button>
+      <button class="nav-item" data-tab="flashcards"><span>▣</span><small>Cartões</small></button>
+      <button class="nav-item" data-tab="desempenho"><span>◔</span><small>Desempenho</small></button>
+    </nav>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  </div>
+  <script src="./src/js/app.js?v=3"></script>
+</body>
+</html>

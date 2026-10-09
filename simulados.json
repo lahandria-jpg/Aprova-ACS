@@ -1,0 +1,262 @@
+[
+  {
+    "id": "q1",
+    "area": "portugues",
+    "pergunta": "Leia: “Embora a equipe tenha ampliado as visitas, algumas famílias ainda não foram localizadas.” A palavra “embora” expressa ideia de:",
+    "opcoes": [
+      "Causa",
+      "Concessão",
+      "Conclusão",
+      "Finalidade"
+    ],
+    "correta": 1,
+    "comentario": "“Embora” introduz oração subordinada adverbial concessiva: apresenta um fato que não impede a ocorrência do outro."
+  },
+  {
+    "id": "q2",
+    "area": "portugues",
+    "pergunta": "Assinale a frase em que o uso da crase está adequado à norma-padrão.",
+    "opcoes": [
+      "O agente começou à orientar a família.",
+      "A equipe chegou à unidade de saúde.",
+      "O atendimento será feito à partir das oito.",
+      "O ACS entregou o formulário à ele."
+    ],
+    "correta": 1,
+    "comentario": "Em “chegou à unidade”, há preposição exigida por chegar a e artigo feminino a. Não ocorre crase antes de verbo, em “a partir”, nem antes de pronome pessoal."
+  },
+  {
+    "id": "q3",
+    "area": "portugues",
+    "pergunta": "Em “Faz dois meses que a campanha começou”, o verbo “fazer” está no singular porque:",
+    "opcoes": [
+      "Concorda com campanha.",
+      "É auxiliar de começou.",
+      "Indica tempo decorrido e é impessoal.",
+      "O sujeito é oculto."
+    ],
+    "correta": 2,
+    "comentario": "O verbo fazer indicando tempo decorrido é impessoal e permanece na terceira pessoa do singular."
+  },
+  {
+    "id": "q4",
+    "area": "portugues",
+    "pergunta": "Assinale a alternativa com regência de acordo com a norma-padrão.",
+    "opcoes": [
+      "A equipe assistiu o treinamento (no sentido de ver).",
+      "O profissional obedeceu o protocolo.",
+      "A população aspirava a melhores condições de saúde.",
+      "Prefiro mais orientar do que encaminhar."
+    ],
+    "correta": 2,
+    "comentario": "No sentido de desejar, aspirar rege a preposição “a”. Na norma-padrão, assistir (ver) rege “a”, obedecer rege “a” e preferir X a Y, sem “mais”."
+  },
+  {
+    "id": "q5",
+    "area": "portugues",
+    "pergunta": "A expressão “O bairro acordou preocupado” atribui característica humana ao bairro. A figura é:",
+    "opcoes": [
+      "Hipérbole",
+      "Metonímia",
+      "Personificação",
+      "Eufemismo"
+    ],
+    "correta": 2,
+    "comentario": "Personificação ou prosopopeia atribui ação, sentimento ou característica humana a ser não humano."
+  },
+  {
+    "id": "q6",
+    "area": "especificos",
+    "pergunta": "Segundo o art. 196 da Constituição Federal, a saúde é:",
+    "opcoes": [
+      "Benefício restrito a contribuintes.",
+      "Direito de todos e dever do Estado.",
+      "Responsabilidade exclusiva dos municípios.",
+      "Serviço facultativo do poder público."
+    ],
+    "correta": 1,
+    "comentario": "O art. 196 afirma que saúde é direito de todos e dever do Estado, garantido por políticas sociais e econômicas e acesso universal e igualitário."
+  },
+  {
+    "id": "q7",
+    "area": "especificos",
+    "pergunta": "Qual lei trata da participação da comunidade na gestão do SUS e das transferências intergovernamentais de recursos financeiros?",
+    "opcoes": [
+      "Lei nº 8.142/1990",
+      "Lei nº 11.350/2006",
+      "Lei nº 13.595/2018",
+      "Lei nº 14.536/2023"
+    ],
+    "correta": 0,
+    "comentario": "A Lei nº 8.142/1990 trata da participação social por Conselhos e Conferências de Saúde e das transferências intergovernamentais."
+  },
+  {
+    "id": "q8",
+    "area": "especificos",
+    "pergunta": "Qual alternativa descreve corretamente uma atribuição central do ACS?",
+    "opcoes": [
+      "Prescrever medicamentos para doenças comuns.",
+      "Realizar diagnóstico clínico independente.",
+      "Desenvolver ações de promoção da saúde e prevenção de doenças no território.",
+      "Substituir consultas de enfermagem."
+    ],
+    "correta": 2,
+    "comentario": "O ACS desenvolve ações de promoção, prevenção, orientação, cadastro, visita e acompanhamento, integrado à equipe e conforme a legislação. Não substitui profissionais habilitados."
+  },
+  {
+    "id": "q9",
+    "area": "especificos",
+    "pergunta": "A diretriz do SUS que prevê organização por regiões e níveis de complexidade é chamada de:",
+    "opcoes": [
+      "Seletividade contributiva",
+      "Regionalização e hierarquização",
+      "Privatização obrigatória",
+      "Centralização federal exclusiva"
+    ],
+    "correta": 1,
+    "comentario": "A regionalização organiza serviços em territórios articulados e a hierarquização os organiza por níveis de complexidade, garantindo fluxos de cuidado."
+  },
+  {
+    "id": "q10",
+    "area": "especificos",
+    "pergunta": "Qual achado deve levantar suspeita de hanseníase e motivar encaminhamento para avaliação?",
+    "opcoes": [
+      "Mancha com alteração de sensibilidade.",
+      "Coceira isolada após picada de inseto.",
+      "Febre por um único dia sem outros sinais.",
+      "Dor muscular após exercício."
+    ],
+    "correta": 0,
+    "comentario": "Manchas com alteração de sensibilidade, formigamento e perda de força são sinais importantes. O diagnóstico deve ser feito por profissional habilitado."
+  },
+  {
+    "id": "q11",
+    "area": "especificos",
+    "pergunta": "Em relação à tuberculose, é correto afirmar que:",
+    "opcoes": [
+      "É transmitida principalmente por água contaminada.",
+      "A interrupção precoce do tratamento não traz consequências.",
+      "A transmissão ocorre pelo ar e a identificação precoce ajuda a reduzir a disseminação.",
+      "Só existe forma pulmonar."
+    ],
+    "correta": 2,
+    "comentario": "A tuberculose é transmitida pelo ar; diagnóstico e tratamento oportunos são essenciais. O tratamento deve seguir o esquema completo indicado."
+  },
+  {
+    "id": "q12",
+    "area": "especificos",
+    "pergunta": "Qual situação relacionada à dengue exige busca urgente por atendimento?",
+    "opcoes": [
+      "Sede leve após caminhada.",
+      "Dor abdominal intensa e vômitos persistentes.",
+      "Espírito de cansaço após dia de trabalho, sem outros sinais.",
+      "Picada de mosquito sem sintomas."
+    ],
+    "correta": 1,
+    "comentario": "Dor abdominal intensa e contínua e vômitos persistentes são sinais de alarme e exigem avaliação urgente."
+  },
+  {
+    "id": "q13",
+    "area": "especificos",
+    "pergunta": "A principal finalidade da territorialização na Atenção Primária é:",
+    "opcoes": [
+      "Restringir atendimento a pessoas com cadastro atualizado.",
+      "Conhecer população, riscos, recursos e necessidades para planejar ações.",
+      "Substituir os registros de saúde.",
+      "Definir diagnósticos individuais pelo ACS."
+    ],
+    "correta": 1,
+    "comentario": "Territorialização permite conhecer o contexto local, identificar vulnerabilidades e organizar ações adequadas à população adscrita."
+  },
+  {
+    "id": "q14",
+    "area": "especificos",
+    "pergunta": "A respeito dos Conselhos de Saúde, assinale a alternativa correta.",
+    "opcoes": [
+      "São temporários e exclusivamente consultivos.",
+      "Reúnem-se apenas durante eleições municipais.",
+      "São permanentes e deliberativos, atuando na formulação e no controle da política de saúde.",
+      "São compostos apenas por profissionais médicos."
+    ],
+    "correta": 2,
+    "comentario": "A Lei nº 8.142/1990 prevê Conselhos de Saúde permanentes e deliberativos, com representação de diferentes segmentos e participação paritária dos usuários em relação aos demais segmentos."
+  },
+  {
+    "id": "q15",
+    "area": "portugues",
+    "pergunta": "Em “O relatório que a equipe elaborou foi enviado”, o termo “que” é:",
+    "opcoes": [
+      "Conjunção coordenativa adversativa",
+      "Pronome relativo que retoma “relatório”",
+      "Preposição essencial",
+      "Interjeição"
+    ],
+    "correta": 1,
+    "comentario": "“Que” retoma o antecedente “relatório” e introduz oração subordinada adjetiva."
+  },
+  {
+    "id": "q16",
+    "area": "especificos",
+    "pergunta": "No trabalho do ACS, o sigilo profissional significa:",
+    "opcoes": [
+      "Nunca compartilhar informação nem mesmo com a equipe responsável.",
+      "Compartilhar dados pessoais apenas em contexto autorizado e necessário ao cuidado, conforme normas.",
+      "Divulgar casos para incentivar a comunidade a se cuidar.",
+      "Registrar opiniões pessoais como fatos."
+    ],
+    "correta": 1,
+    "comentario": "O sigilo protege a privacidade. Informações devem circular apenas por finalidade legítima, em canais adequados e conforme normas legais e assistenciais."
+  },
+  {
+    "id": "q17",
+    "area": "portugues",
+    "pergunta": "Assinale a alternativa em que a vírgula está empregada corretamente.",
+    "opcoes": [
+      "O ACS, visitou a família ontem.",
+      "A equipe identificou, uma situação de risco.",
+      "Após a reunião, os agentes organizaram as visitas.",
+      "Os profissionais de saúde, orientaram os moradores."
+    ],
+    "correta": 2,
+    "comentario": "A vírgula pode separar adjunto adverbial deslocado, especialmente quando anteposto. Não se separa sujeito de verbo nem verbo de complemento."
+  },
+  {
+    "id": "q18",
+    "area": "especificos",
+    "pergunta": "Qual é a conduta adequada do ACS diante de pessoa com possível sinal de alarme de dengue?",
+    "opcoes": [
+      "Prescrever analgésico e aguardar três dias.",
+      "Confirmar o diagnóstico pela observação.",
+      "Orientar busca imediata de atendimento e comunicar conforme o fluxo local.",
+      "Recomendar antibiótico preventivo."
+    ],
+    "correta": 2,
+    "comentario": "O ACS reconhece sinais de alerta, orienta atendimento urgente e comunica a equipe; diagnóstico e tratamento são atribuições de profissionais habilitados."
+  },
+  {
+    "id": "q19",
+    "area": "especificos",
+    "pergunta": "A escala de Coelho-Savassi é utilizada principalmente para:",
+    "opcoes": [
+      "Calcular doses de vacinas.",
+      "Estratificar risco familiar e apoiar a priorização do acompanhamento.",
+      "Confirmar tuberculose laboratorialmente.",
+      "Substituir o cadastro domiciliar."
+    ],
+    "correta": 1,
+    "comentario": "É instrumento de estratificação de risco familiar para apoiar planejamento e priorização na Atenção Primária. Deve-se usar a versão e os pontos de corte do protocolo adotado."
+  },
+  {
+    "id": "q20",
+    "area": "portugues",
+    "pergunta": "Na frase “A campanha foi um sucesso: muitas famílias compareceram”, os dois-pontos introduzem:",
+    "opcoes": [
+      "Uma explicação ou especificação do que foi afirmado.",
+      "Uma pergunta direta.",
+      "Uma oração sem relação com a anterior.",
+      "Uma citação obrigatoriamente literal."
+    ],
+    "correta": 0,
+    "comentario": "Os dois-pontos podem introduzir explicação, enumeração, esclarecimento ou citação. Aqui, a segunda parte explica por que a campanha foi considerada um sucesso."
+  }
+]

@@ -1,0 +1,195 @@
+{
+  "id": "especificos",
+  "titulo": "Conhecimentos Específicos — ACS",
+  "descricao": "SUS, legislação, território, vigilância e cuidado",
+  "icone": "🩺",
+  "aulas": [
+    {
+      "id": "esp-sus",
+      "titulo": "Constituição Federal e princípios do SUS",
+      "duracao": "15 min",
+      "topicos": [
+        {
+          "titulo": "Constituição Federal: arts. 196 a 200",
+          "conteudo": "Art. 196: saúde é direito de todos e dever do Estado, garantida por políticas sociais e econômicas que reduzam riscos e assegurem acesso universal e igualitário. Art. 197: ações e serviços de saúde são de relevância pública, cabendo ao poder público regulamentar, fiscalizar e controlar. Art. 198: rede regionalizada e hierarquizada, organizada em diretrizes de descentralização, atendimento integral e participação da comunidade. Art. 199: assistência à saúde é livre à iniciativa privada, com participação complementar do setor privado segundo diretrizes do SUS e preferência a entidades filantrópicas e sem fins lucrativos. Art. 200: competências do SUS incluem vigilância sanitária e epidemiológica, saúde do trabalhador, formação de recursos humanos, saneamento, fiscalização de alimentos e colaboração na proteção ambiental."
+        },
+        {
+          "titulo": "Princípios doutrinários",
+          "conteudo": "Universalidade: acesso de todas as pessoas. Integralidade: articulação de ações preventivas e curativas, individuais e coletivas, em todos os níveis necessários. Equidade: reconhecer necessidades diferentes para reduzir desigualdades injustas. Equidade não significa oferecer exatamente o mesmo a todos, mas responder proporcionalmente às necessidades."
+        },
+        {
+          "titulo": "Diretrizes organizativas",
+          "conteudo": "Descentralização com direção única em cada esfera de governo; regionalização e hierarquização da rede; participação popular por conselhos e conferências. Atenção Primária é porta de entrada preferencial e coordenadora do cuidado, articulada à rede de atenção."
+        }
+      ]
+    },
+    {
+      "id": "esp-leis",
+      "titulo": "Leis Orgânicas da Saúde: 8.080 e 8.142",
+      "duracao": "14 min",
+      "topicos": [
+        {
+          "titulo": "Lei nº 8.080/1990",
+          "conteudo": "Regula ações e serviços de saúde em todo o território nacional e define organização, direção e gestão do SUS. Saúde é influenciada por alimentação, moradia, saneamento, meio ambiente, trabalho, renda, educação, atividade física, transporte, lazer e acesso a bens e serviços. A iniciativa privada pode participar complementarmente. A lei disciplina vigilância epidemiológica, vigilância sanitária, saúde do trabalhador e assistência terapêutica integral."
+        },
+        {
+          "titulo": "Lei nº 8.142/1990",
+          "conteudo": "Trata da participação da comunidade na gestão do SUS e das transferências intergovernamentais de recursos financeiros. Conferência de Saúde reúne-se, em regra, a cada quatro anos para avaliar a situação de saúde e propor diretrizes. Conselho de Saúde é permanente e deliberativo, composto por representantes do governo, prestadores, profissionais e usuários; atua na formulação de estratégias e no controle da execução da política, inclusive nos aspectos econômicos e financeiros."
+        },
+        {
+          "titulo": "Participação social",
+          "conteudo": "A representação dos usuários nos Conselhos e Conferências deve ser paritária em relação ao conjunto dos demais segmentos, conforme a legislação e regulamentação aplicáveis. Conselho não é apenas consultivo: possui caráter deliberativo, com decisões submetidas à homologação da autoridade competente."
+        }
+      ]
+    },
+    {
+      "id": "esp-lei11350",
+      "titulo": "Lei nº 11.350/2006 e atualizações",
+      "duracao": "16 min",
+      "topicos": [
+        {
+          "titulo": "Atribuições do ACS",
+          "conteudo": "O ACS atua no âmbito do SUS, integrado à equipe de Saúde da Família e sob supervisão competente, desenvolvendo ações de prevenção de doenças e promoção da saúde por meio de ações domiciliares ou comunitárias, individuais ou coletivas, em conformidade com diretrizes do SUS. Inclui cadastro e atualização de dados, orientação às famílias, identificação de situações de risco, estímulo à participação comunitária e encaminhamento à unidade de referência."
+        },
+        {
+          "titulo": "Requisitos e vínculo territorial",
+          "conteudo": "A Lei nº 11.350/2006 estabelece requisitos legais para o exercício da atividade, incluindo, conforme a redação vigente, residência na área da comunidade em que atua desde a publicação do edital do processo seletivo, conclusão do ensino médio e curso de formação inicial com carga horária mínima legal. Requisitos específicos devem ser conferidos no edital local e na legislação atualizada."
+        },
+        {
+          "titulo": "Leis nº 13.595/2018 e 14.536/2023; EC 120/2022",
+          "conteudo": "A Lei nº 13.595/2018 alterou a Lei nº 11.350/2006, detalhando atribuições, formação e condições de trabalho dos ACS e ACE. A EC nº 120/2022 tratou da responsabilidade financeira da União pelo vencimento dos agentes e de direitos correlatos previstos constitucionalmente. A Lei nº 14.536/2023 reconheceu ACS e ACE como profissionais de saúde com profissões regulamentadas para fins legais. Para prova, estude a redação consolidada e não apenas resumos antigos."
+        },
+        {
+          "titulo": "Limites de atuação e ética",
+          "conteudo": "O ACS não substitui profissionais de outras categorias nem realiza diagnóstico clínico ou prescrição fora de sua habilitação. Deve preservar sigilo, respeitar autonomia e cultura familiar, registrar informações com qualidade, evitar discriminação e comunicar riscos à equipe. Procedimentos e atribuições concretos devem observar a legislação, normas do Ministério da Saúde e protocolos locais vigentes."
+        }
+      ]
+    },
+    {
+      "id": "esp-territorio",
+      "titulo": "Territorialização, cadastro e visita domiciliar",
+      "duracao": "13 min",
+      "topicos": [
+        {
+          "titulo": "Território e adscrição",
+          "conteudo": "Territorialização é o processo de conhecer a área de atuação, sua população, condições de vida, recursos, vulnerabilidades e riscos. Adscrição vincula população a equipe de referência para facilitar acesso, continuidade e responsabilização. O território é dinâmico: mudanças demográficas, ambientais e sociais exigem atualização contínua."
+        },
+        {
+          "titulo": "Cadastro e diagnóstico local",
+          "conteudo": "Cadastro individual e domiciliar/familiar identifica composição, condições de moradia, saneamento, acesso a serviços e situações relevantes. O registro deve ser objetivo, atualizado, protegido e utilizado para planejar ações; dados não devem ser coletados ou compartilhados sem finalidade legítima."
+        },
+        {
+          "titulo": "Visita domiciliar",
+          "conteudo": "Planeje visitas conforme prioridades e necessidades, apresente-se, explique o objetivo, respeite privacidade e consentimento, observe sinais de vulnerabilidade e combine encaminhamentos. Registre achados relevantes e compartilhe com a equipe pelo fluxo adequado. Visita não é fiscalização punitiva: é vínculo, orientação, escuta e acompanhamento."
+        },
+        {
+          "titulo": "Escala de risco familiar Coelho-Savassi",
+          "conteudo": "É instrumento de estratificação de risco familiar usado para apoiar priorização de acompanhamento na Atenção Primária. A versão tradicional considera sentinelas de risco associadas à ficha A do SIAB, como acamado, deficiência física, deficiência mental, baixas condições de saneamento, desnutrição grave, drogadição, desemprego, analfabetismo, menores de seis meses, maiores de 70 anos, hipertensão arterial sistêmica e diabetes mellitus, entre outras condições conforme versão adotada. Os escores somados classificam risco; pontos de corte e itens podem variar conforme protocolo/versão local, portanto confira o material oficial indicado no curso ou município."
+        }
+      ]
+    },
+    {
+      "id": "esp-vacinas",
+      "titulo": "Imunização e Calendário Nacional de Vacinação",
+      "duracao": "14 min",
+      "topicos": [
+        {
+          "titulo": "Conceitos fundamentais",
+          "conteudo": "Vacina estimula resposta imune ativa e memória imunológica; imunização passiva fornece anticorpos prontos, como imunoglobulinas específicas. Calendários variam por idade, condição clínica, histórico vacinal e atualizações do Programa Nacional de Imunizações (PNI). Nunca aplique dose com base apenas em memória: consulte calendário e normas técnicas vigentes."
+        },
+        {
+          "titulo": "Rede de frio e segurança",
+          "conteudo": "A rede de frio mantém imunobiológicos em condições adequadas desde produção até aplicação. Em geral, vacinas refrigeradas são conservadas entre +2 °C e +8 °C, conforme especificação de cada produto. Monitorar e registrar temperatura, proteger da luz quando indicado, controlar validade e lote, manter organização e agir segundo protocolo diante de excursão de temperatura."
+        },
+        {
+          "titulo": "Atribuição do ACS",
+          "conteudo": "O ACS orienta a população sobre vacinação, identifica pessoas com esquema possivelmente atrasado, incentiva comparecimento à unidade, divulga campanhas e acompanha barreiras de acesso. A administração de vacinas depende de habilitação, capacitação e normas profissionais/locais; não presuma que seja atribuição autônoma do ACS."
+        },
+        {
+          "titulo": "Calendário: como estudar",
+          "conteudo": "Memorize grupos-alvo e objetivos das vacinas mais cobradas, mas confirme idades e intervalos na versão vigente do PNI: BCG e hepatite B ao nascer conforme indicação; pentavalente, poliomielite, pneumocócicas, rotavírus e meningocócicas na infância; tríplice viral e varicela conforme calendário; HPV e meningocócica ACWY em grupos etários definidos; influenza e covid-19 em grupos prioritários e campanhas; dT/dTpa e hepatite B conforme histórico, gestação e risco. Esquemas podem mudar."
+        }
+      ]
+    },
+    {
+      "id": "esp-doencas",
+      "titulo": "Tuberculose e hanseníase",
+      "duracao": "14 min",
+      "topicos": [
+        {
+          "titulo": "Tuberculose",
+          "conteudo": "Doença transmissível causada principalmente por Mycobacterium tuberculosis, com acometimento pulmonar frequente. Tosse por três semanas ou mais é sinal clássico para investigação, embora protocolos atuais recomendem avaliação conforme contexto e risco. Outros sinais: febre vespertina, sudorese noturna, emagrecimento e cansaço. Transmissão ocorre pelo ar; ambientes ventilados, diagnóstico e tratamento oportunos reduzem transmissão."
+        },
+        {
+          "titulo": "Acompanhamento da TB",
+          "conteudo": "ACS pode identificar sintomáticos respiratórios, orientar procura do serviço, apoiar coleta/exames conforme fluxo, acompanhar adesão e contatos, combater estigma e comunicar faltas à equipe. Diagnóstico e esquema terapêutico são definidos por profissionais habilitados. Tratamento incompleto favorece persistência, recaída e resistência medicamentosa."
+        },
+        {
+          "titulo": "Hanseníase",
+          "conteudo": "Doença infecciosa crônica causada por Mycobacterium leprae, que afeta principalmente pele e nervos periféricos. Sinais importantes: manchas com alteração de sensibilidade térmica, dolorosa ou tátil; formigamento, perda de força e nervos espessados. A transmissão relaciona-se a contato próximo e prolongado com pessoa com hanseníase não tratada; não é transmitida por abraço ou compartilhamento casual de objetos."
+        },
+        {
+          "titulo": "Prevenção de incapacidades",
+          "conteudo": "Diagnóstico precoce e tratamento adequado reduzem transmissão e sequelas. Investigue contatos conforme protocolo, oriente sem estigmatizar e encaminhe suspeitas à unidade. O ACS não confirma diagnóstico: reconhece sinais, acolhe, orienta e articula acompanhamento."
+        }
+      ]
+    },
+    {
+      "id": "esp-arboviroses",
+      "titulo": "Dengue e outras arboviroses",
+      "duracao": "12 min",
+      "topicos": [
+        {
+          "titulo": "Transmissão e prevenção",
+          "conteudo": "Dengue é causada por vírus transmitido principalmente pela fêmea do mosquito Aedes aegypti infectada. Prevenção exige eliminar recipientes com água parada, vedar reservatórios, limpar calhas, descartar resíduos corretamente e mobilizar a comunidade. Ações coletivas e manejo ambiental são essenciais."
+        },
+        {
+          "titulo": "Sinais de alerta",
+          "conteudo": "Febre, dor no corpo, cefaleia, dor atrás dos olhos, náuseas e manchas podem ocorrer. Dor abdominal intensa e contínua, vômitos persistentes, sangramento de mucosas, letargia/irritabilidade, tontura/desmaio, dificuldade respiratória ou piora após a queda da febre exigem avaliação urgente. ACS orienta procura imediata de serviço diante de sinais de alarme."
+        },
+        {
+          "titulo": "Vigilância e comunicação",
+          "conteudo": "Registre e comunique situações conforme protocolo municipal, participe de ações educativas e eliminação de criadouros e evite recomendar automedicação. Casos suspeitos precisam de avaliação clínica; não é possível distinguir com segurança dengue de outras doenças apenas por sintomas."
+        }
+      ]
+    },
+    {
+      "id": "esp-cronicas",
+      "titulo": "Hipertensão e diabetes",
+      "duracao": "12 min",
+      "topicos": [
+        {
+          "titulo": "Hipertensão arterial",
+          "conteudo": "Hipertensão é condição crônica multifatorial associada ao aumento do risco cardiovascular, renal e cerebrovascular. Pode ser assintomática; diagnóstico depende de aferições adequadas e avaliação profissional. Medidas protetoras incluem alimentação equilibrada, redução de sódio, atividade física, evitar tabaco, moderação/evitação de álcool e adesão ao tratamento prescrito."
+        },
+        {
+          "titulo": "Diabetes mellitus",
+          "conteudo": "Diabetes envolve hiperglicemia por alterações na secreção ou ação da insulina. Sinais possíveis incluem sede e urina excessivas, fome, perda de peso e visão turva, mas pode haver poucos sintomas. Controle envolve acompanhamento, alimentação, atividade física, medicamentos prescritos e monitoramento indicado pela equipe."
+        },
+        {
+          "titulo": "Papel do ACS no cuidado continuado",
+          "conteudo": "Acompanhar presença nas consultas, apoiar entendimento das orientações, identificar barreiras para adesão, reforçar hábitos saudáveis, reconhecer sinais que exigem encaminhamento e manter registro. Não alterar dose nem suspender medicamentos. Dor torácica, falta de ar intensa, sinais de AVC, confusão ou perda de consciência são emergências."
+        }
+      ]
+    },
+    {
+      "id": "esp-vigilancia",
+      "titulo": "Vigilância, promoção e ética",
+      "duracao": "10 min",
+      "topicos": [
+        {
+          "titulo": "Vigilância em saúde",
+          "conteudo": "Vigilância epidemiológica reúne ações para conhecer, detectar ou prevenir mudanças nos determinantes e condicionantes de saúde, recomendando medidas de prevenção e controle. Vigilância sanitária atua sobre riscos relacionados a produtos, serviços, ambientes e processos. As áreas se articulam com vigilância ambiental e saúde do trabalhador."
+        },
+        {
+          "titulo": "Promoção da saúde e educação popular",
+          "conteudo": "Promoção da saúde amplia autonomia e condições para uma vida saudável, considerando determinantes sociais. Educação em saúde deve dialogar com saberes locais, ser compreensível e participativa, sem culpabilizar indivíduos por condições estruturais. Comunicação clara e escuta qualificada fortalecem vínculo e adesão."
+        },
+        {
+          "titulo": "Ética e sigilo",
+          "conteudo": "Compartilhe informações pessoais apenas com profissionais autorizados e para finalidade assistencial legítima. Em espaços comunitários, não exponha diagnóstico ou condição familiar. Registros devem ser fidedignos; situações de violência, negligência ou risco devem seguir fluxos legais e protocolos, protegendo a pessoa e evitando promessas de sigilo absoluto quando houver dever de comunicação."
+        }
+      ]
+    }
+  ]
+}

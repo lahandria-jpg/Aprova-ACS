@@ -1,0 +1,153 @@
+{
+  "id": "portugues",
+  "titulo": "Língua Portuguesa",
+  "descricao": "Leitura, gramática e produção de sentidos",
+  "icone": "📘",
+  "aulas": [
+    {
+      "id": "pt-interpretacao",
+      "titulo": "Interpretação e compreensão textual",
+      "duracao": "12 min",
+      "topicos": [
+        {
+          "titulo": "Compreensão x interpretação",
+          "conteudo": "Compreender é localizar informações expressas no texto; interpretar é construir inferências apoiadas em pistas linguísticas, gênero, contexto e finalidade. Uma inferência válida precisa ser autorizada pelo texto, não apenas parecer plausível no mundo real."
+        },
+        {
+          "titulo": "Tema, tese e argumentos",
+          "conteudo": "Tema é o assunto geral; tese é o posicionamento defendido; argumentos sustentam a tese por dados, exemplos, comparação, causa e consequência ou autoridade. Em textos narrativos, observe conflito, personagens, tempo, espaço e foco narrativo."
+        },
+        {
+          "titulo": "Informações explícitas e implícitas",
+          "conteudo": "Pressupostos são informações tomadas como já dadas por marcas linguísticas (por exemplo, 'voltou' pressupõe uma ida anterior). Subentendidos dependem mais do contexto e da intenção comunicativa. Ironia ocorre quando há distância entre o sentido literal e o sentido pretendido."
+        },
+        {
+          "titulo": "Gêneros e tipologias",
+          "conteudo": "Narração organiza acontecimentos; descrição caracteriza seres e cenários; exposição explica; argumentação defende uma tese; injunção orienta ou instrui. Gêneros como notícia, artigo de opinião, crônica, requerimento e campanha combinam tipologias e atendem a finalidades sociais específicas."
+        },
+        {
+          "titulo": "Estratégia de prova",
+          "conteudo": "Leia primeiro o comando, identifique o recorte pedido e retorne ao trecho pertinente. Desconfie de alternativas absolutas ('sempre', 'nunca', 'somente') quando o texto não as sustenta. Diferencie opinião do autor, fala de personagem e informação citada."
+        }
+      ]
+    },
+    {
+      "id": "pt-sintaxe",
+      "titulo": "Classes de palavras e sintaxe",
+      "duracao": "14 min",
+      "topicos": [
+        {
+          "titulo": "Classes gramaticais",
+          "conteudo": "Substantivo nomeia; adjetivo caracteriza; artigo determina; numeral quantifica/ordena; pronome retoma ou acompanha nomes; verbo expressa ação, estado ou fenômeno; advérbio modifica verbo, adjetivo ou outro advérbio; preposição relaciona termos; conjunção articula orações; interjeição exprime reação."
+        },
+        {
+          "titulo": "Termos essenciais",
+          "conteudo": "Sujeito é o termo sobre o qual se declara algo; predicado é a declaração. O sujeito pode ser simples, composto, oculto/desinencial, indeterminado ou inexistente. Em 'há muitos candidatos', o verbo haver com sentido de existir é impessoal e fica no singular."
+        },
+        {
+          "titulo": "Complementos e adjuntos",
+          "conteudo": "Objeto direto completa verbo transitivo sem preposição obrigatória; objeto indireto completa verbo com preposição exigida. Complemento nominal completa sentido de nome e recebe a ação/ideia; adjunto adnominal caracteriza ou determina substantivo; adjunto adverbial indica circunstância."
+        },
+        {
+          "titulo": "Período composto",
+          "conteudo": "Orações coordenadas são sintaticamente independentes; podem ser aditivas, adversativas, alternativas, conclusivas ou explicativas. Subordinadas exercem função em relação à principal: substantivas, adjetivas (restritivas sem vírgulas; explicativas entre vírgulas) e adverbiais (causa, condição, concessão, finalidade, tempo, consequência, comparação etc.)."
+        },
+        {
+          "titulo": "Concordância",
+          "conteudo": "O verbo concorda normalmente com o núcleo do sujeito. Com sujeito composto anteposto, vai ao plural; com expressões partitivas ou coletivos, a concordância pode variar conforme a construção. Adjetivos concordam com o substantivo; atenção a 'meio' (advérbio invariável em 'meio cansada') e 'bastante' (invariável quando advérbio)."
+        }
+      ]
+    },
+    {
+      "id": "pt-regencia",
+      "titulo": "Regência verbal e nominal",
+      "duracao": "10 min",
+      "topicos": [
+        {
+          "titulo": "Regência verbal",
+          "conteudo": "Regência é a relação entre um termo regente e seu complemento. Na norma-padrão: assistir a (ver), obedecer a, aspirar a (desejar), visar a (ter como objetivo), preferir X a Y, simpatizar com, informar algo a alguém/informar alguém de algo. O uso pode variar conforme o sentido: assistir o paciente = prestar assistência."
+        },
+        {
+          "titulo": "Regência nominal",
+          "conteudo": "Nomes também selecionam preposição: acesso a; respeito a/por; necessidade de; favorável a; compatível com; apto a/para; consciente de; aversão a; confiança em. Memorize a relação sem decorar listas isoladas: associe o nome à expressão completa."
+        },
+        {
+          "titulo": "Pronomes relativos",
+          "conteudo": "'Que' pode retomar pessoa ou coisa; 'quem' normalmente se refere a pessoa e vem precedido de preposição quando exigida; 'cujo' indica posse e não admite artigo depois; 'onde' indica lugar físico, enquanto 'em que/no qual' pode retomar situações mais abstratas. A preposição do verbo deve aparecer antes do relativo quando exigida."
+        }
+      ]
+    },
+    {
+      "id": "pt-crase",
+      "titulo": "Crase",
+      "duracao": "10 min",
+      "topicos": [
+        {
+          "titulo": "Regra básica",
+          "conteudo": "Crase é a fusão da preposição 'a' com o artigo feminino 'a/as' ou com o início de demonstrativos como aquele(s), aquela(s), aquilo. Ocorre, por exemplo, em 'dirigiu-se à unidade' (= dirigiu-se a + a unidade). Troque por termo masculino: se surgir 'ao', tende a haver crase."
+        },
+        {
+          "titulo": "Casos frequentes",
+          "conteudo": "Usa-se crase em locuções femininas ('à tarde', 'às vezes', 'à medida que'), em indicação de horas ('às 8h') e antes de demonstrativo iniciado por a- quando há preposição. Não ocorre antes de verbo, palavra masculina, pronomes pessoais e, em regra, artigo indefinido."
+        },
+        {
+          "titulo": "Casos facultativos e pegadinhas",
+          "conteudo": "Pode ser facultativa antes de nome próprio feminino e pronome possessivo feminino singular, conforme a presença do artigo. Em 'a distância', a crase depende do sentido e da determinação: 'à distância de dois metros'. Não confunda 'à medida que' (proporção) com 'na medida em que' (causa, no uso corrente)."
+        }
+      ]
+    },
+    {
+      "id": "pt-pronomes",
+      "titulo": "Colocação pronominal",
+      "duracao": "8 min",
+      "topicos": [
+        {
+          "titulo": "Próclise",
+          "conteudo": "Pronome átono antes do verbo. Favorecida por palavras negativas (não me diga), pronomes relativos (que se apresentou), indefinidos (alguém me chamou), demonstrativos, conjunções subordinativas (quando me viu) e advérbios sem pausa."
+        },
+        {
+          "titulo": "Ênclise e mesóclise",
+          "conteudo": "Ênclise ocorre depois do verbo e é comum quando ele inicia oração na norma-padrão ('informou-me'). Mesóclise pode ocorrer no futuro do presente ou do pretérito sem fator de próclise ('dar-lhe-ei'), sendo formal e rara no português brasileiro cotidiano. Não se inicia oração formal com pronome átono segundo a tradição normativa."
+        }
+      ]
+    },
+    {
+      "id": "pt-coesao",
+      "titulo": "Coesão, coerência e semântica",
+      "duracao": "9 min",
+      "topicos": [
+        {
+          "titulo": "Coesão referencial",
+          "conteudo": "Pronomes, sinônimos, elipses e expressões nominais retomam ou antecipam referentes. Anáfora retoma algo já mencionado; catáfora anuncia algo que virá. A referência precisa ser clara para evitar ambiguidade."
+        },
+        {
+          "titulo": "Conectores",
+          "conteudo": "Adição: além disso; oposição: porém, contudo; causa: porque, visto que; consequência/conclusão: portanto, por isso; concessão: embora, ainda que; condição: caso, se; finalidade: para que; comparação: como, tal qual. O sentido do conector é mais importante que sua classificação decorada."
+        },
+        {
+          "titulo": "Coerência e progressão",
+          "conteudo": "Coerência é a compatibilidade lógica e contextual das ideias. Progressão temática acrescenta informação sem repetir indefinidamente. Contradições, mudanças injustificadas de referente e conectores inadequados prejudicam a unidade do texto."
+        }
+      ]
+    },
+    {
+      "id": "pt-figuras",
+      "titulo": "Figuras de linguagem e pontuação",
+      "duracao": "10 min",
+      "topicos": [
+        {
+          "titulo": "Figuras mais cobradas",
+          "conteudo": "Metáfora: comparação implícita; comparação: aproximação explícita; metonímia: substituição por relação de proximidade; personificação: atribuição de ação humana a não humano; hipérbole: exagero; eufemismo: suavização; antítese: oposição; paradoxo: ideias aparentemente contraditórias; ironia: sentido diferente do literal; anáfora: repetição no início de segmentos."
+        },
+        {
+          "titulo": "Pontuação",
+          "conteudo": "A vírgula separa termos deslocados, vocativos, apostos explicativos, orações adverbiais antepostas e itens de enumeração. Não se separa por vírgula o sujeito do verbo nem o verbo de seu complemento. Dois-pontos introduzem explicação, enumeração ou fala; ponto e vírgula marca separação intermediária; travessão pode marcar diálogo ou intercalação."
+        },
+        {
+          "titulo": "Acentuação e ortografia",
+          "conteudo": "Oxítonas são acentuadas conforme terminações previstas; paroxítonas seguem regra complementar; proparoxítonas são todas acentuadas. Hiatos como 'saída' e 'país' recebem acento conforme a regra do i/u tônico. Acordo ortográfico eliminou alguns acentos diferenciais, mantendo, por exemplo, pôde/pode e pôr/por."
+        }
+      ]
+    }
+  ]
+}

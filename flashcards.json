@@ -1,0 +1,110 @@
+[
+  {
+    "id": "fc1",
+    "area": "portugues",
+    "pergunta": "Qual é a diferença entre compreensão e interpretação textual?",
+    "resposta": "Compreensão localiza informações explícitas; interpretação constrói inferências sustentadas por pistas do texto e do contexto."
+  },
+  {
+    "id": "fc2",
+    "area": "portugues",
+    "pergunta": "Quando se usa crase antes de palavra feminina?",
+    "resposta": "Quando há fusão da preposição “a” exigida pelo termo anterior com o artigo feminino “a/as” ou outra forma iniciada por a- que admita a fusão."
+  },
+  {
+    "id": "fc3",
+    "area": "portugues",
+    "pergunta": "Quais termos não devem ser separados por vírgula?",
+    "resposta": "Em regra, sujeito e verbo; verbo e complemento; nome e complemento nominal. A vírgula depende da estrutura sintática."
+  },
+  {
+    "id": "fc4",
+    "area": "portugues",
+    "pergunta": "O que é uma oração subordinada adjetiva restritiva?",
+    "resposta": "É a oração que delimita o sentido do antecedente e, em regra, não fica isolada por vírgulas."
+  },
+  {
+    "id": "fc5",
+    "area": "portugues",
+    "pergunta": "O que significa regência verbal?",
+    "resposta": "É a relação entre o verbo e seus complementos, incluindo a preposição exigida conforme o sentido do verbo."
+  },
+  {
+    "id": "fc6",
+    "area": "especificos",
+    "pergunta": "O que estabelece o art. 196 da Constituição Federal?",
+    "resposta": "A saúde é direito de todos e dever do Estado, garantida por políticas sociais e econômicas e acesso universal e igualitário."
+  },
+  {
+    "id": "fc7",
+    "area": "especificos",
+    "pergunta": "Qual é a diferença entre universalidade, integralidade e equidade?",
+    "resposta": "Universalidade: todos têm direito de acesso. Integralidade: cuidado articulado e abrangente. Equidade: resposta proporcional às diferentes necessidades para reduzir desigualdades."
+  },
+  {
+    "id": "fc8",
+    "area": "especificos",
+    "pergunta": "Qual é o foco da Lei nº 8.142/1990?",
+    "resposta": "Participação da comunidade na gestão do SUS e transferências intergovernamentais de recursos financeiros."
+  },
+  {
+    "id": "fc9",
+    "area": "especificos",
+    "pergunta": "Qual é o papel dos Conselhos de Saúde?",
+    "resposta": "São permanentes e deliberativos; atuam na formulação de estratégias e no controle da execução da política de saúde."
+  },
+  {
+    "id": "fc10",
+    "area": "especificos",
+    "pergunta": "Cite três ações típicas do ACS.",
+    "resposta": "Cadastro e atualização de informações; visitas e orientação às famílias; identificação de riscos e articulação com a equipe para prevenção e promoção da saúde."
+  },
+  {
+    "id": "fc11",
+    "area": "especificos",
+    "pergunta": "O que é territorialização em saúde?",
+    "resposta": "Processo de conhecer população, condições de vida, recursos, riscos e necessidades de uma área para planejar ações de saúde."
+  },
+  {
+    "id": "fc12",
+    "area": "especificos",
+    "pergunta": "Para que serve a escala Coelho-Savassi?",
+    "resposta": "Para estratificar risco familiar e ajudar a priorizar acompanhamento; itens e pontos de corte devem seguir a versão/protocolo adotado."
+  },
+  {
+    "id": "fc13",
+    "area": "especificos",
+    "pergunta": "Qual sinal clássico pode indicar necessidade de investigação de tuberculose?",
+    "resposta": "Tosse persistente, tradicionalmente por três semanas ou mais, especialmente com febre, sudorese noturna, emagrecimento ou exposição. Seguir protocolo atual."
+  },
+  {
+    "id": "fc14",
+    "area": "especificos",
+    "pergunta": "Qual sinal é especialmente sugestivo de hanseníase?",
+    "resposta": "Lesão ou mancha de pele com alteração de sensibilidade; também podem ocorrer formigamento e perda de força. Encaminhar para avaliação profissional."
+  },
+  {
+    "id": "fc15",
+    "area": "especificos",
+    "pergunta": "Quais são sinais de alarme da dengue?",
+    "resposta": "Entre outros: dor abdominal intensa e contínua, vômitos persistentes, sangramento de mucosas, letargia/irritabilidade, tontura ou piora após a febre baixar."
+  },
+  {
+    "id": "fc16",
+    "area": "especificos",
+    "pergunta": "Qual faixa de temperatura é geralmente usada para conservação de vacinas refrigeradas?",
+    "resposta": "Em geral, +2 °C a +8 °C, respeitando as especificações de cada imunobiológico e as normas vigentes."
+  },
+  {
+    "id": "fc17",
+    "area": "especificos",
+    "pergunta": "O ACS pode diagnosticar e prescrever medicamentos de forma independente?",
+    "resposta": "Não. O ACS atua em promoção, prevenção, orientação, cadastro e acompanhamento, dentro das atribuições legais e integrado à equipe."
+  },
+  {
+    "id": "fc18",
+    "area": "especificos",
+    "pergunta": "Qual é a finalidade do sigilo no trabalho em saúde?",
+    "resposta": "Proteger privacidade e dignidade, permitindo compartilhar informações apenas quando necessário, autorizado e conforme deveres legais e assistenciais."
+  }
+]
